@@ -26,6 +26,6 @@ while (not calibrated):
     print('{2},{0:5.3f},{1:5.3f}'.format(minimum,maximum,t))
     sys.stdout.flush()
     change = maximum - minimum
-    if (change < 0.05):
+    if (change < 0.005):
         calibrated = True
 
