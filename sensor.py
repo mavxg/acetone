@@ -9,6 +9,7 @@ import explorerhat
 
 def button(channel):
     print("button pressed")
+    # os.system("sudo shutdown -h now")
 
 
 GPIO.setmode(GPIO.BCM)
